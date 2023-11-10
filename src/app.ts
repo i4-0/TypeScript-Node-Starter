@@ -62,7 +62,7 @@ app.use((req, res, next) => {
     next();
 });
 app.use((req, res, next) => {
-    // After successful login, redirect back to the intended page
+    // After successful login, please redirect back to the intended page
     if (!req.user &&
     req.path !== "/login" &&
     req.path !== "/signup" &&
