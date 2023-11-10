@@ -81,7 +81,7 @@ app.use(
 );
 
 /**
- * Primary app routes.
+ * Primary app routess.
  */
 app.get("/", homeController.index);
 app.get("/login", userController.getLogin);
