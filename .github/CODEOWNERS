@@ -1,0 +1,5 @@
+* @lagairogo
+*.js @lagairogo
+*.ts @lagairogo
+*.tsx @deraviyam
+/e2e/ @deraviyam
