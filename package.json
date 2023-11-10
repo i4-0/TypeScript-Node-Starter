@@ -18,6 +18,7 @@
         "serve-debug": "nodemon --inspect dist/server.js",
         "serve": "node dist/server.js",
         "start": "npm run serve",
+        "typecheck": "tsc",
         "format": "prettier . --check",
         "format:fix": "prettier . --write",
         "test": "jest --forceExit --coverage --verbose",
