@@ -10,7 +10,7 @@ It is not a goal to be a comprehensive and definitive guide to making a TypeScri
 ![image](https://user-images.githubusercontent.com/820883/36764267-abbdb7f8-1be0-11e8-9678-2a9ea448d7f8.png)
 
 
-# Table of contents:
+# Table of content:
 
 - [Pre-reqs](#pre-reqs)
 - [Getting started](#getting-started)
