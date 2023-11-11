@@ -24,6 +24,7 @@ jobs:
           node-version: 18
           cache: "npm"
       - name: Install Dependencies
+        run: npm install playwright
         run: npm ci
       - name: Create Version PR or Github Release
         id: changesets
