@@ -28,6 +28,7 @@
         "watch": "concurrently -k -p \"[{name}]\" -n \"Sass,TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-sass\" \"npm run watch-ts\" \"npm run watch-node\""
     },
     "dependencies": {
+        "@changesets/cli": "^2.26.2",
         "async": "3.2.2",
         "bcrypt-nodejs": "0.0.3",
         "bluebird": "3.7.2",
