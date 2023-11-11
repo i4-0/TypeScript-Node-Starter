@@ -9,12 +9,12 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top
     .collapse.navbar-collapse
       .dropdown-divider
       ul.nav.navbar-nav.mr-auto
-        li.nav-item(class=(title === 'Loans') ? 'active' : undefined)
+        li.nav-item(class=(title === 'Home') ? 'active' : undefined)
           a.nav-link(href='/') Home
-        li.nav-item(class=(title === 'API Examples') ? 'active' : undefined)
-          a.nav-link(href='/api') API Examples
+        li.nav-item(class=(title === 'Integrations') ? 'active' : undefined)
+          a.nav-link(href='/api') Integrations
         li.nav-item(class=(title === 'Credit Score') ? 'active' : undefined)
-          a.nav-link(href='/contact') Contact
+          a.nav-link(href='/contact') Credit Score
       ul.nav.navbar-nav
         if !user
           li.nav-item(class=(title === 'Login') ? 'active' : undefined)
