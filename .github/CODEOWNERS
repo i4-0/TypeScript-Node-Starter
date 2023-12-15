@@ -3,3 +3,4 @@
 *.ts @lagairogo
 *.tsx @deraviyam
 /e2e/ @deraviyam
+*.md @deraviyam
